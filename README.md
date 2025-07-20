@@ -49,7 +49,8 @@ python src/train_model.py --data data/spam_messages.csv
 4. Run Predictions
 python src/predict.py "Free entry in 2 a weekly competition to win FA Cup final tickets"
 # → Output: SPAM / HAM
-📊 Model Evaluation
+
+# 📊 Model Evaluation
 Accuracy
 
 Precision & Recall
@@ -60,7 +61,7 @@ Confusion Matrix
 
 (Add actual metrics here based on your evaluation)
 
-🧠 How It Works
+# 🧠 How It Works
 Preprocessing: Text messages are cleaned (lowercased, stripped of non-alphanumeric characters, stop words removed).
 
 Feature Extraction: TF-IDF transforms messages into numeric vectors for classification.
@@ -69,7 +70,7 @@ Model Training: A classifier (e.g., Naive Bayes) is trained to distinguish betwe
 
 Prediction: The model predicts labels for new chat messages with confidence scores.
 
-📌 Limitations & Next Steps
+# 📌 Limitations & Next Steps
 Dataset Bias: Model accuracy can be impacted by dataset imbalance.
 
 Phrase Variable Spams: Needs periodic retraining with updated data.
@@ -82,7 +83,7 @@ SMS/email spam detection
 
 Replace TF-IDF with word embeddings (e.g., Word2Vec, BERT)
 
-🛠 Contributions
+# 🛠 Contributions
 Contributions are welcome! Feel free to:
 
 Fork the repo
@@ -91,7 +92,7 @@ Create a feature branch
 
 Submit a pull request
 
-👤 Authors
+# 👤 Authors
 Vaibhav Gupta – @guptavaibhav654
 
 📄 License
